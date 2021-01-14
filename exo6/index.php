@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Exercice 1 - PHP</title>
+        <title>Exercice 6  - PHP</title>
         <meta charset="utf-8">
         <link rel="stylesheet" href="">
     
@@ -10,8 +10,12 @@
     <body>
        
         <?php
-            $name='toto';
-            echo '$name'; 
+           
+          $name="Paul";
+
+          echo "Bonjour ";
+          echo "$name, ";
+          echo "comment vas-tu ?";
         ?>
   
     </body>
